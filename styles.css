@@ -1,0 +1,132 @@
+/* Style untuk meratakan teks paragraf kiri dan kanan */
+.text-justify {
+  text-align: justify;
+}
+
+/* Tambahkan margin top untuk container agar lebih rapi */
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Membesarkan kartu */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #4379f2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan shadow */
+}
+
+/* Mengubah warna teks pada logo atau elemen lain di header */
+.logo span {
+  font-weight: bold;
+  color: #ffffff; /* Ubah warna teks pada logo */
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 15px;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Ubah warna saat hover */
+}
+
+.card {
+  border: 1px solid #ddd; /* Garis border */
+  border-radius: 10px; /* Sudut yang lebih bulat */
+  transition: box-shadow 0.3s; /* Transisi bayangan */
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan saat hover */
+}
+
+.ml-3 {
+  margin-left: 1rem; /* Jarak antara gambar dan teks */
+}
+
+.navbar-toggler i {
+  font-size: 1.5rem; /* Sesuaikan ukuran ikon */
+  color: #021526; /* Ganti warna sesuai kebutuhan */
+}
+
+/* Menambahkan background pada dropdown */
+.dropdown-menu {
+  background-color: #FFDB00; /* Ganti dengan warna yang kamu inginkan */
+  border-radius: 0px; /* Menambahkan sedikit border radius untuk tampilan yang lebih lembut */
+}
+
+/* Mengubah warna teks dan hover pada item dropdown */
+.dropdown-item {
+  color: #FAF7F0; /* Warna teks */
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff; /* Warna saat hover */
+  color: #fff; /* Ubah warna teks saat hover */
+}
+
+.footer {
+  background-color: #343a40; /* Warna background gelap */
+  color: #fff; /* Warna teks putih */
+  padding: 20px 0;
+}
+
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #007bff; /* Warna teks saat hover */
+}
+
+.footer .list-inline-item {
+  margin-right: 10px;
+}
+
+.footer .list-inline-item a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer .list-inline-item a:hover {
+  color: #007bff;
+}
+
+
