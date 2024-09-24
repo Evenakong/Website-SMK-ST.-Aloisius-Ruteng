@@ -71,7 +71,7 @@
 
 /* Menambahkan background pada dropdown */
 .dropdown-menu {
-  background-color: #FFDB00; /* Ganti dengan warna yang kamu inginkan */
+  background-color: #001F3F; /* Ganti dengan warna yang kamu inginkan */
   border-radius: 0px; /* Menambahkan sedikit border radius untuk tampilan yang lebih lembut */
 }
 
@@ -82,7 +82,7 @@
 }
 
 .dropdown-item:hover {
-  background-color: #007bff; /* Warna saat hover */
+  background-color: #FCCD2A; /* Warna saat hover */
   color: #fff; /* Ubah warna teks saat hover */
 }
 
