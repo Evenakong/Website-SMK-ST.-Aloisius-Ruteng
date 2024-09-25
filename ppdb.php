@@ -1,5 +1,11 @@
+<?php
+include 'config/koneksi.php';
+include 'proses/ppdb_simpan.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,6 +58,7 @@
     }
   </style>
 </head>
+
 <body>
   <header class="sticky-header">
     <nav class="navbar navbar-expand-lg">
@@ -99,50 +106,50 @@
   <div class="container">
     <div class="col-md-8 mx-auto form-container">
       <h2 class="form-title">Formulir Pendaftaran Peserta Didik Baru</h2>
-      <form method="post" action="" enctype="multipart/form-data">
+      <form method="post" action="ppdb.php" enctype="multipart/form-data">
         <div class="form-group mb-3">
-          <label>Nama Lengkap</label>
-          <input type="text" class="form-control" placeholder="Masukan Nama Lengkap Anda">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" name="nama" class="form-control" placeholder="Masukan Nama Lengkap Anda">
         </div>
 
         <div class="form-group mb-3">
-          <label>Email</label>
-          <input type="email" class="form-control" placeholder="Masukan Email Anda">
+          <label for="email">Email</label>
+          <input type="email" name="email" class="form-control" placeholder="Masukan Email Anda">
         </div>
 
         <div class="form-group mb-3">
-          <label>Password</label>
-          <input type="password" class="form-control" placeholder="Masukan Password Anda">
+          <label for="password">Password</label>
+          <input type="password" name="password" class="form-control" placeholder="Masukan Password Anda">
           <small class="text-muted">Password terdiri dari angka dan huruf minimal 6 karakter</small>
         </div>
 
         <div class="row">
           <div class="col-md-6">
             <div class="form-group mb-3">
-              <label>Tempat Lahir</label>
-              <input type="text" class="form-control" placeholder="Masukan Tempat Lahir Anda">
+              <label for="tempat_lahir">Tempat Lahir</label>
+              <input type="text" name="tempat_lahir" class="form-control" placeholder="Masukan Tempat Lahir Anda">
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group mb-3">
-              <label>Tanggal Lahir</label>
-              <input type="date" class="form-control">
+              <label for="tanggal_lahir">Tanggal Lahir</label>
+              <input type="date" name="tanggal_lahir" class="form-control">
             </div>
           </div>
         </div>
 
         <div class="form-group mb-3">
-          <label>Pilih Jurusan</label>
-          <select class="form-control">
-            <option>Teknik Otomotif</option>
-            <option>Teknik Pengelasan</option>
-            <option>Desain Komunikasi Visual</option>
+          <label for="jurusan">Pilih Jurusan</label>
+          <select class="form-control" name="jurusan">
+            <option value="Teknik Otomotif">Teknik Otomotif</option>
+            <option value="Teknik Pengelasan">Teknik Pengelasan</option>
+            <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
           </select>
         </div>
 
         <div class="form-group mb-3">
-          <label>Alasan Memilih Sekolah Ini</label>
-          <textarea class="form-control" rows="4" placeholder="Tuliskan alasan Anda"></textarea>
+          <label for="alasan">Alasan Memilih Sekolah Ini</label>
+          <textarea class="form-control" name="alasan" rows="4" placeholder="Tuliskan alasan Anda"></textarea>
         </div>
 
         <div class="form-group mb-3">
@@ -158,8 +165,8 @@
         </div>
 
         <div class="form-group mb-3">
-          <label>Upload Dokumen IJAZAH/SKL/AKTA</label>
-          <input type="file" class="form-control">
+          <label for="dokumen">Upload Dokumen IJAZAH/SKL/AKTA</label>
+          <input type="file" name="dokumen" class="form-control" required>
           <small class="text-muted">Upload file dengan ukuran minimal 2 MB</small>
         </div>
 
@@ -174,4 +181,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+<?php
+$mysqli->close();
+?>
