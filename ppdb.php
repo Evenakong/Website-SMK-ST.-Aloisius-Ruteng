@@ -99,7 +99,7 @@
   <div class="container">
     <div class="col-md-8 mx-auto form-container">
       <h2 class="form-title">Formulir Pendaftaran Peserta Didik Baru</h2>
-      <form>
+      <form method="post" action="" enctype="multipart/form-data">
         <div class="form-group mb-3">
           <label>Nama Lengkap</label>
           <input type="text" class="form-control" placeholder="Masukan Nama Lengkap Anda">
@@ -158,7 +158,7 @@
         </div>
 
         <div class="form-group mb-3">
-          <label>Upload Dokumen /IJAZAH/SKL/AKTA</label>
+          <label>Upload Dokumen IJAZAH/SKL/AKTA</label>
           <input type="file" class="form-control">
           <small class="text-muted">Upload file dengan ukuran minimal 2 MB</small>
         </div>

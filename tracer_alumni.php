@@ -33,7 +33,7 @@
     <div class="container">
         <div class="form-container">
             <h2 class="form-title">Form Tracer Alumni</h2>
-            <form>
+            <form method="post" action="">
                 <div class="mb-3">
                     <label for="name" class="form-label">Nama Lengkap</label>
                     <input type="text" class="form-control" id="name" placeholder="Nama Lengkap" required>
