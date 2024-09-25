@@ -9,7 +9,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center">Alumni</h1>
-        <p class="text-center">Bagi alumni yang belum tercantum di daftar silahkan isi formulir alumni <a href="TracerAlumni.html" target="_blank" class="btn btn-primary">KLIK DISINI</a></p>
+        <p class="text-center">Bagi alumni yang belum tercantum di daftar silahkan isi formulir alumni <a href="tracer_alumni.php" target="_blank" class="btn btn-primary">KLIK DISINI</a></p>
 
         <!-- Dropdown untuk menampilkan entri -->
         <div class="row mt-4">

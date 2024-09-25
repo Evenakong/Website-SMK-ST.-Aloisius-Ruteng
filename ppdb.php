@@ -70,9 +70,9 @@
               <a class="nav-link dropdown-toggle" href="#" id="jurusanDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">Jurusan</a>
               <ul class="dropdown-menu" aria-labelledby="jurusanDropdown">
-                <li><a class="dropdown-item" href="teknik-otomotif.html">Teknik Otomotif</a></li>
-                <li><a class="dropdown-item" href="teknik-pengelasan.html">Teknik Pengelasan</a></li>
-                <li><a class="dropdown-item" href="dkv.html">DKV (Desain Komunikasi Visual)</a></li>
+                <li><a class="dropdown-item" href="teknik_otomotif.php">Teknik Otomotif</a></li>
+                <li><a class="dropdown-item" href="teknik_pengelasan.php">Teknik Pengelasan</a></li>
+                <li><a class="dropdown-item" href="dkv.php">DKV (Desain Komunikasi Visual)</a></li>
               </ul>
             </li>
             <!-- Dropdown Info -->

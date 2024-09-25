@@ -42,8 +42,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan Digital</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="ppdb.html" target="_blank" >PPDB</a></li>
-                <li><a class="dropdown-item" href="DataAlumni.html" target="_blank">Alumni</a></li>
+                <li><a class="dropdown-item" href="ppdb.php" target="_blank" >PPDB</a></li>
+                <li><a class="dropdown-item" href="data_alumni.php" target="_blank">Alumni</a></li>
               </ul>
             </li>
           </ul>
@@ -143,7 +143,7 @@
           <div class="card-body">
             <h6 class="card-title">PLN UIP Nusra Tuntaskan Pelatihan Konversi Molis di SMK St Aloisius Manggarai</h6>
             <p class="card-text"></p>
-            <a href="berita1.html" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="berita1.php" class="btn btn-primary">Baca Selengkapnya</a>
           </div>
         </div>
       </div>

@@ -128,7 +128,7 @@
 
                     <button type="submit" class="btn btn-success">Submit</button>
                     <button type="reset" class="btn btn-danger">Reset</button>
-                    <a href="index.html" class="btn btn-primary">Kembali</a>
+                    <a href="index.php" class="btn btn-primary">Kembali</a>
                 </form>
             </form>
         </div>
