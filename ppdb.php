@@ -62,8 +62,8 @@ include 'proses/ppdb_simpan.php';
 <body>
   <header class="sticky-header">
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand text-light" href="#">PPDB</a>
+      <div class="container-fluid">
+        <a class="navbar-brand text-light"  href="#">PPDB</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPPDB"
           aria-controls="navbarPPDB" aria-expanded="false" aria-label="Toggle navigation">
           <!-- Bars-->

@@ -25,6 +25,7 @@
 .navbar-brand {
   color: #fff;
   font-size: 1.3rem;
+  padding-right: auto;
 }
 .navbar-nav .nav-link {
   color: #fff; /* Warna teks */
