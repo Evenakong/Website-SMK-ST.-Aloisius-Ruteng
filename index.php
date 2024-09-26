@@ -32,12 +32,13 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil Sekolah </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#tentang-sekolah">Tentang Sekolah</a></li>
-                <li><a class="dropdown-item" href="#visi-misi">Visi & Misi</a></li>
+                <li><a class="dropdown-item" href="tentang_sekolah.php" target="_blank">Tentang Sekolah</a></li>
+                <li><a class="dropdown-item" href="visi_misi.php" target="_blank">Visi & Misi</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#berita">Berita</a>
+            <a class="nav-link" href="#berita">Berita</a>
+
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan Digital</a>
@@ -133,6 +134,7 @@
   <!-- Batas Sambutan Kepala Sekolah-->
 
   <!-- Card img Berita-->
+   <section id="berita">
   <div class="container mt-5">
     <h2 class="text-center mb-3">Berita</h2>
     <div class="row">
@@ -171,6 +173,7 @@
       </div>
     </div>
   </div>
+  </section>
   <!-- Batas Card img Berita-->
 
   <!-- Video -->
