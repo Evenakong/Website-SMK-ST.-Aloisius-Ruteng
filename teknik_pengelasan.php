@@ -108,7 +108,7 @@ include 'proses/ppdb_simpan.php';
   <h2 class="text-center">Teknik Pengelasan</h2>
   <p>Kompetensi Keahlian Teknik Pengelasan membentuk lulusan terampil, berpengetahuan dan berkarakter unggul sebagai calon tenaga dibidang perencana dan pelaksana Teknik Pengelasan serta juru las yang bersertifikat BNSP pada posisi minimal 3G/3F pada berbagai pengelasan SMAW / MMAW, GMAW dan sebagai calon wirausahaan muda dalam bidang pengelasan.
   </p>
-  <br>Tujuan Kompetensi Keahlian Teknik Pengelasan secara umum mengacu pada isi Undang Undang Sistem Pendidikan Nasional (UU SPN) pasal 3 mengenai Tujuan Pendidikan Nasional dan penjelasan pasal 15 yang menyebutkan bahwa  pendidikan kejuruan merupakan pendidikan menengah yang mencetak tenaga ahli profesional dalam bidang Teknik Pengelasan yang berbasis komputer yang berorientasi pada kebutuhan dunia usaha. Secara khusus tujuan Program Keahlian Teknik Pengelasan adalah membekali peserta didik dengan keterampilan, pengetahuan dan sikap agar kompeten; </br>
+  <p>Tujuan Kompetensi Keahlian Teknik Pengelasan secara umum mengacu pada isi Undang Undang Sistem Pendidikan Nasional (UU SPN) pasal 3 mengenai Tujuan Pendidikan Nasional dan penjelasan pasal 15 yang menyebutkan bahwa  pendidikan kejuruan merupakan pendidikan menengah yang mencetak tenaga ahli profesional dalam bidang Teknik Pengelasan yang berbasis komputer yang berorientasi pada kebutuhan dunia usaha. Secara khusus tujuan Program Keahlian Teknik Pengelasan adalah membekali peserta didik dengan keterampilan, pengetahuan dan sikap agar kompeten; </p>
   <ol>
     <li>Membaca Gambar Tekhnik</li>
     <li>Simulasi Digital</li>

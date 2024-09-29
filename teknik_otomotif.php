@@ -109,7 +109,7 @@ include 'proses/ppdb_simpan.php';
   <p>Teknik Kendaraan Ringan adalah ilmu yang mempelajari tentang alat-alat transportasi darat yang menggunakan mesin, terutama mobil yang mulai berkembang sebagai cabang ilmu seiring dengan diciptakannya mesin mobil. Dalam perkembangannya, mobil semakin menjadi alat transportasi yang kompleks yang terdiri dari ribuan komponen yang tergolong dalam puluhan system dan subsistem. Oleh karena itu, Teknik Kendaraan Ringan pun berkembang menjadi ilmu yang luas dan mencakup semua sistem dan subsistem.
   Teknik Kendaraan Ringan yang dulunya adalah Teknik Otomotif, membekali peserta didik dengan ilmu kendaraan ringan agar mampu melaksanakan perawatan dan perbaikan komponen â€“ komponen mobil secara mandiri, merawat dan memperbaiki mobil sesuai dengan standar yang ditentukan oleh pabrik, merawat dan memperbaiki mobil pada bengkel atau perusahaan dimana tempat ia bekerja, serta menciptakan lapangan kerja baru bagi dirinya dan orang lain.
   </p>
-  <br>Tujuan Kompetensi keahlian Teknik Kendaraan Ringan SMK Swasta St. Aloisius yaitu membekali peserta didik dengan pengetahuan, sikap, perilaku dan keterampilan agar kompeten dalam: </br>
+  <p>Tujuan Kompetensi keahlian Teknik Kendaraan Ringan SMK Swasta St. Aloisius yaitu membekali peserta didik dengan pengetahuan, sikap, perilaku dan keterampilan agar kompeten dalam:</p>
   <ol>
     <li>Membaca Gambar Tekhnik</li>
     <li>Teknologi Dasar Otomotif</li>
